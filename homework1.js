@@ -7,7 +7,7 @@ nums1.forEach(num => {
     sum += num;
 })
 console.log(sum);
-
+console.log();
 //?==========================================
 
 // Напишите программу которая добавит в массив namesObject объекты
@@ -23,6 +23,7 @@ const newObj = names.map(name => {
 
 })
 console.log(namesObject);
+console.log();
 // let newObj = {...names};
 // let newString = names.toString();
 // names.forEach((element) => {
@@ -47,6 +48,7 @@ function newFunction(chislo) {
     })
 }
 console.log(numsRes);
+console.log();
 
 //?==========================================
 
@@ -58,6 +60,7 @@ const reversedNumberRow = [];
 numberRow.slice().reverse().forEach(numero => reversedNumberRow.push(numero))
 
 console.log(reversedNumberRow);
+console.log();
 
 //?==========================================
 
@@ -96,4 +99,5 @@ cars.forEach(auto => {
 })
 
 console.log(theText);
+
 
