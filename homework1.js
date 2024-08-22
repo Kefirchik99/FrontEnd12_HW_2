@@ -88,8 +88,12 @@ const cars = [
     }
 ];
 
+let theText = "";
+
 cars.forEach(auto => {
-    const theText = `This is a ${auto.color} ${auto.make}. It costs ${auto.price}$.`
-    console.log(theText);
+    theText += `This is a ${auto.color} ${auto.make}. It costs ${auto.price}$.`
+
 })
+
+console.log(theText);
 
